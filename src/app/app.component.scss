@@ -1,0 +1,25 @@
+.contenedor-formulario {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding: 25px;
+    
+    div.formulario > div{
+        margin: 5px 0px;
+    }
+
+    .alert-danger{
+        padding: 5px;
+    }
+
+    .contenedor-botones {
+        width: 100%;
+        display: flex;
+        button {
+            margin: 25px auto 0px;
+        }
+    }
+}
